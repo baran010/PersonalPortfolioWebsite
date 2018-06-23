@@ -1,0 +1,222 @@
+/* -------------------- Body -------------------- */
+body {
+    margin: 0;
+    padding: 0;
+    color: #0F0F0F;
+    background: #0F0F0F;
+    font-family: 'Sintony', sans-serif;
+}
+
+/* -------------------- Container -------------------- */
+.container {
+    width: 94%;
+    margin: auto;
+    overflow: hidden;
+    max-width: 940px;
+}
+
+/* -------------------- Header -------------------- */
+header {
+    overflow: hidden;
+    background-color: #0F0F0F;
+}
+
+/* -------------------- Logo -------------------- */
+.logo {
+    float: left;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+/* -------------------- Navbar -------------------- */
+nav {
+    float: right;
+    margin: 50px 0 50px 0;
+}
+
+nav li {
+    font-size: 18px;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+nav li a {
+    color: #FFFFFF;
+    background-color: #0F0F0F;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav li a:hover {
+    color: #0F0F0F;
+    background-color: #FFFFFF;
+    padding: 5px;
+}
+
+nav li a.cv {
+    color: #0F0F0F;
+    background-color: #FF5000;
+}
+
+nav li a.cv:hover {
+    color: #0F0F0F;
+    background-color: #4a4a4a;
+}
+
+/* -------------------- Profile picture -------------------- */
+.profile img {
+    width: 50%;
+    border-radius: 100%;
+    margin-left: 25%;
+}
+
+/* -------------------- Boxes -------------------- */
+.boxes {
+    margin-top: 75px;
+}
+
+.boxes .box {
+    float: left;
+    width: 47%;
+    padding: 10px;
+}
+
+.boxes h1 {
+    padding: 20px;
+    font-size: 25px;
+    margin-top: 20px;
+    color: #0F0F0F;
+    background-color: #FF5000;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.boxes .box p {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.boxes .box img {
+    width: 300px;
+}
+
+/* -------------------- Skills -------------------- */
+.boxes .skills {
+    color: #0F0F0F;
+    text-align: right;
+    line-height: 40px;
+    border-radius: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.boxes .achtergrond {
+    width: 100%;
+    font-size: 20px;
+    background-color: #2A2A2A;
+    border-radius: 5px;
+}
+
+.boxes .html\/css {width: 70%; background-color: #FFFFFF;}
+.boxes .photoshop\/design {width: 60%; background-color: #FFFFFF;}
+.boxes .javascript {width: 50%; background-color: #FFFFFF;}
+.boxes .php {width: 30%; background-color: #FFFFFF;}
+.boxes .c-sharp {width: 10%; background-color: #FFFFFF;}
+
+/* -------------------- Contact -------------------- */
+.boxes form input, textarea {
+    font-family: 'Sintony', sans-serif;
+    background-color: #2A2A2A;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid #2A2A2A;
+    border-radius: 5px;
+    outline: none;
+    width: 90%;
+}
+
+.boxes form input:first-child {
+    margin-top: 10px;
+}
+
+.boxes form input {
+    width: 90%;
+    margin-bottom: 50px;
+    height: 50px;
+}
+
+.boxes form textarea {
+    width: 90%;
+    margin-top: 10px;
+    height: 175px;
+    resize: none;
+    float: right;
+}
+
+.boxes .input_text {
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.boxes .button {
+    background-color: #2A2A2A;
+    color: #FFFFFF;
+    border: none;
+    width: 47%;
+    height: 50px;
+    float: right;
+    cursor: pointer;
+}
+
+.boxes .button:hover {
+    background-color: #4A4A4A;
+}
+
+/* -------------------- Footer -------------------- */
+#footer footer {
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    background-color: #0F0F0F;
+    text-align: center;
+    border: none;
+    border-top: 10px solid;
+    border-color: #2A2A2A;
+}
+
+#footer footer img {
+    width: 100px;
+}
+
+/* -------------------- Media Queries -------------------- */
+@media(max-width: 888px){
+    .logo,
+    .boxes,
+    .boxes .box,
+    .boxes .button,
+    .boxes form input,
+    .boxes form textarea {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    nav li {
+        float: none;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .boxes .box img {
+        float: none;
+        text-align: center;
+        width: 75%;
+    }
+}
